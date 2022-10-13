@@ -1,0 +1,120 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 150px;
+    padding: 0 100px
+}
+
+.header__left-block {
+    display: flex;
+    justify-content: space-between;
+    width: 550px
+}
+
+.header__logo {
+    max-width: 170px
+}
+
+.header__logo img {
+    width: 100%
+}
+
+.header__links {
+    display: flex;
+    align-items: center
+}
+
+.header__link {
+    position: relative;
+    margin-right: 45px;
+    font-weight: 700;
+    font-size: 20px;
+    color: #303030
+}
+
+.header__link:after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 110%;
+    left: -5%;
+    bottom: -5px;
+    z-index: -1;
+    height: 2px;
+    background: #54ed39
+}
+
+.header__link:last-child {
+    margin-right: 0
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    .header {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 150px;
+        padding: 0 70px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px)  {
+    .header {
+        padding: 0 70px;
+    }
+    
+    .header__left-block {
+        display: flex;
+        justify-content: space-between;
+        min-width: 450px
+    }
+
+    .header__right-block .btn{
+        width: 150px;
+        height: 32px;
+    } 
+
+    .header__link {
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .header {
+        box-sizing: border-box;
+        padding: 30px;
+        height: 80px;
+        margin: 0 auto;
+    }
+
+    .header__left-block {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 250px;
+        margin: 0 auto;
+    }
+
+    .header__right-block {
+        display: none;
+    } 
+
+    .header__links {
+        display: flex;
+        align-items: center;
+        width: max-content;
+        margin-top: 20px;
+    }
+
+    .header__link {
+        font-size: 17px;
+    }
+
+    .header__logo {
+        margin: 0 auto;
+        width: 170px
+    }
+  
+}

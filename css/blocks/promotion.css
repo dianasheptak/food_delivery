@@ -1,0 +1,210 @@
+.promotion {
+    padding: 70px 0 240px 0;
+    position: relative
+}
+
+.promotion .container {
+    display: flex
+}
+
+.promotion .bgc_y {
+    position: absolute;
+    width: 50%;
+    height: 499px;
+    background: rgba(243, 255, 222, .35);
+    z-index: -1;
+    top: -50px;
+    left: 0
+}
+
+.promotion__text {
+    width: 50%
+}
+
+.promotion__descr {
+    margin-top: 40px;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 300
+}
+
+.promotion__descr span {
+    font-weight: 700;
+    font-size: 26px
+}
+
+.promotion__timer {
+    width: 50%
+}
+
+.promotion__timer .title {
+    text-align: right
+}
+
+.promotion__timer .timer {
+    margin-top: 60px;
+    padding-left: 95px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+.promotion__timer .timer__block {
+    width: 102px;
+    height: 120px;
+    background: #fff;
+    box-shadow: 0 7px 7px #54ed39;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center
+}
+
+.promotion__timer .timer__block span {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-size: 56px;
+    font-weight: 700
+}
+
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    .promotion {
+        padding: 70px 30px 240px ;
+        margin: 0 auto;
+    }
+    
+    .promotion__text {
+        width: 50%;
+        padding-right: 15px;
+    }
+    
+    .promotion__timer .timer {
+        margin-top: 60px;
+        padding-left: 0;
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+        align-items: center
+    }
+    
+    .promotion__timer .timer__block {
+        width: 82px;
+        height: 100px;
+        box-shadow: 3px 3px 3px  #54ed39;
+    }
+    
+    .promotion__timer .timer__block span {
+        display: block;
+        margin-top: 20px;
+        margin-bottom: 5px;
+        font-size: 46px;
+        font-weight: 700
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 991px) {
+ 
+    .promotion {
+        padding: 70px 0;
+        position: relative
+    }
+
+    .promotion .container {
+        display: flex;
+        flex-direction: column;
+        padding: 0 50px;
+    }
+
+    .promotion__text {
+        text-align: center;
+        width: 100%;
+        line-height: 25px;
+    }
+    
+    .promotion__timer {
+        padding-top: 30px;
+        width: 100%
+    }
+    
+    .promotion__timer .title {
+        padding-top: 50px;
+        text-align: center;
+    }
+    
+    .promotion__timer .timer {
+        margin-top: 40px;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+    
+    .promotion__timer .timer__block {
+        width: 112px;
+        height: 120px;
+        box-shadow: 0 3px 3px #54ed39;
+    }
+    
+    .promotion__timer .timer__block span {
+        display: block;
+        margin-top: 20px;
+        margin-bottom: 5px;
+        font-size: 56px;
+        font-weight: 700
+    }
+    
+}
+
+@media screen and (min-width: 320px) and (max-width: 575px) {
+    .promotion {
+        padding: 70px 0;
+        position: relative
+    }
+
+    .promotion .container {
+        display: flex;
+        flex-direction: column;
+        padding: 0 20px;
+    }
+
+    .promotion__text {
+        text-align: center;
+        width: 100%;
+    }
+    
+    .promotion__timer {
+        padding-top: 30px;
+        width: 100%
+    }
+    
+    .promotion__timer .title {
+        padding-top: 50px;
+        font-size: 27px;
+        font-weight: 700;
+        text-align: center;
+    }
+    
+    .promotion__timer .timer {
+        margin-top: 40px;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+    
+    .promotion__timer .timer__block {
+        width: 122px;
+        height: 100px;
+        box-shadow: 0 3px 3px #99f8a1;
+    }
+    
+    .promotion__timer .timer__block span {
+        display: block;
+        margin-top: 20px;
+        margin-bottom: 5px;
+        font-size: 45px;
+        font-weight: 700
+    }
+}
