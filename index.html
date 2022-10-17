@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Food Delivery</title>
     <link rel="shortcut icon" href="./icons/healthy_food.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -77,7 +78,7 @@
 
     <div class="divider"></div>
 
-    <div class="offer">
+    <div class="offer animate__animated animate__fadeInLeft wow">
         <div class="bgc_y"></div>
         <div class="container">
             <div class="offer__text">
@@ -135,7 +136,7 @@
 
     <div class="calculating">
         <div class="container">
-            <h2 class="title">Let's calculate your need for calories!
+            <h2 class="title animate__animated animate__flash wow">Let's calculate your need for calories!
                 
             </h2>
             <div class="calculating__field">
@@ -182,13 +183,13 @@
 
     <div class="divider"></div>
 
-    <div class="menu">
+    <div class="menu ">
         <h2 class="title">Our menu for the day</h2>
 
         <div class="menu__field">
             <div class="container">
 
-                <div class="menu__item">
+                <div class="menu__item animate__animated animate__fadeInLeft wow">
                     <img src="img/tabs/post.jpg" alt="post">
                     <h3 class="menu__item-subtitle">Menu “Fasting”</h3>
                     <div class="menu__item-descr">The “Fasting menu“ is a careful selection of ingredients: the complete absence of animal products, milk from almonds, oats, coconut or buckwheat, the right amount of protein from tofu and imported vegetarian steaks. </div>
@@ -198,7 +199,7 @@
                         <div class="menu__item-total"><span>430</span> uah/day</div>
                     </div>
                 </div>
-                <div class="menu__item">
+                <div class="menu__item animate__animated animate__fadeInUp wow">
                     <img src="img/tabs/main_bg2.jpg" alt="vegy">
                     <h3 class="menu__item-subtitle">Menu "Fitness"</h3>
                     <div class="menu__item-descr">Menu "Fitness" is a new approach to cooking: more fresh vegetables and fruits. Product of active and healthy people. This is a brand new product with the best price and high quality!</div>
@@ -208,7 +209,7 @@
                         <div class="menu__item-total"><span>229</span> uah/day</div>
                     </div>
                 </div>
-                <div class="menu__item">
+                <div class="menu__item animate__animated animate__fadeInRight wow">
                     <img src="img/tabs/elite.jpg" alt="elite">
                     <h3 class="menu__item-subtitle">Menu “Premium”</h3>
                     <div class="menu__item-descr">In the “Premium” menu, we use not only beautiful packaging design, but also high-quality execution of dishes. Red fish, seafood, fruits - a restaurant menu without going to a restaurant! The menu has been created by best European chefs.</div>
@@ -222,9 +223,9 @@
         </div>
     </div>
 
-    <div class="order">
+    <div class="order ">
         <div class="container">
-            <div class="title">Order your trial day now!</div>
+            <div class="title animate__animated animate__fadeInRightBig wow">Order your trial day now!</div>
             <form action="#" class="order__form">
                 <input required placeholder="Your name" name="name" type="text" class="order__input">
                 <input required placeholder="Your phone number" name="phone" type="phone" class="order__input">
@@ -236,7 +237,7 @@
 
     <div class="divider"></div>
 
-    <div class="promotion">
+    <div class="promotion animate__animated animate__zoomInUp wow">
         <div class="bgc_y"></div>
         <div class="container">
             <div class="promotion__text">
@@ -303,6 +304,7 @@
         </div>
     </div>
 
+    <script src="js/wow.min.js"></script>
     <script src="js/bundle.js"></script>
 </body>
 </html>

@@ -409,6 +409,8 @@ window.addEventListener(`DOMContentLoaded`,() => {
     timer();
     calculator();
 
+    new WOW().init();
+
 });
 })();
 
